@@ -3,6 +3,8 @@ import type { FC, PropsWithChildren } from 'react';
 
 import Link from '@/components/Link';
 
+import styles from './LinkWithArrow.module.css';
+
 type AccessibleAnchorProps = { href?: string };
 
 const LinkWithArrow: FC<PropsWithChildren<AccessibleAnchorProps>> = ({
@@ -11,7 +13,7 @@ const LinkWithArrow: FC<PropsWithChildren<AccessibleAnchorProps>> = ({
 }) => (
   <Link {...props}>
     {children}
-    <ArrowUpRightIcon className="ml-1 inline w-3 fill-white" />
+    <ArrowUpRightIcon className={styles.linkWithArrow} />
   </Link>
 );
 export default LinkWithArrow;

@@ -93,6 +93,7 @@ export default {
       white: '#FFFFFF',
       transparent: 'transparent',
       shadow: '#101828',
+      current: 'currentColor',
     },
     fontSize: {
       xs: ['0.75rem', '1rem'],

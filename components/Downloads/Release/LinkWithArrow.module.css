@@ -1,0 +1,8 @@
+.linkWithArrow {
+  @apply ml-1
+        inline
+        w-3
+        fill-current
+        text-neutral-900
+        dark:text-white;
+}
